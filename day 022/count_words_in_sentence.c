@@ -15,5 +15,4 @@ int main()
         i++;
     }
     printf("Number of words = %d", words);
-    return 0;
-}
+    return 0;}
