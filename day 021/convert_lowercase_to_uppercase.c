@@ -14,5 +14,4 @@ int main()
         i++;
     }
     printf("Uppercase string = %s", str);
-    return 0;
-}
+    return 0;}
