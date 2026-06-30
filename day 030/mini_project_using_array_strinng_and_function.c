@@ -43,7 +43,7 @@ void displayProduct()
         {
             printf("\nProduct ID: %d", id[i]);
             printf("\nName: %s", name[i]);
-            printf("\nPrice: %.2f", price[i]);
+            printf("\nPrice: %f", price[i]);
             printf("\nQuantity: %d\n", quantity[i]);
         }
     }
@@ -63,7 +63,7 @@ void searchProduct()
         {
             printf("\nProduct Found");
             printf("\nName: %s", name[i]);
-            printf("\nPrice: %.2f", price[i]);
+            printf("\nPrice: %f", price[i]);
             printf("\nQuantity: %d", quantity[i]);
             return;
         }
